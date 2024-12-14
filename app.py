@@ -166,10 +166,10 @@ factibilidad_imagen = generar_analisis_factibilidad()
 # 6. Interfaz Streamlit
 # ------------------------
 with st.sidebar:
-    st.title("UrbanGrow Lite")
+    st.title("Mi huertito")
     st.write("Explora las opciones de tu huerto urbano")
 
-st.header("Resultados del MVP")
+st.header("Resultados del análisis")
 
 # Inputs de usuario
 area_input = st.number_input("Área del techo (m2):", min_value=1, value=50)
